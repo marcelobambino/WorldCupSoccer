@@ -1,0 +1,121 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+body{
+  color: #696969;
+}
+a:link {
+  color: #3b3420;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3b3420;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a52f09;
+  text-decoration: none;
+}
+
+a:active {
+  color: #a52f09;
+}
+
+a.order-button, a.order-button:hover{
+  color: #fdfcf7;
+}
+
+.evtInfo, .action{
+  border-style: solid;
+}
+
+p{
+  font-size: 0.8rem;
+}
+
+.imageNation {
+  display: inline-block;
+  width: 60%;
+  margin-left: 0%;
+}
+
+.imageMedal {
+  display: inline-block;
+  margin-left: 10%;
+  width: 25%;
+}
+
+
+.yearLabel {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  border-color: blue;
+  text-align: center;
+}
+
+.col-sm-3 {
+  margin-top: 5%;
+}

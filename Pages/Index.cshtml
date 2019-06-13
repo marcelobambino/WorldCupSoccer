@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h1>Welcome to World Cup Soccer History</h1>
+<div id="eventWrapper" class="row">
+@foreach (var evt in Model.eventList)
+{
+    <div class="col-sm-3">
+            <div class="evtInfo">
+                <h3 class="yearLabel">@evt.year</h3>
+                <div class="container">
+                    <img class="imageMedal" src="~/Images/Nations/Thumbnails/gold_medal.jpg" />
+                    <img class="imageNation" src="~/Images/Nations/Thumbnails/@evt.firstImageName" />
+                </div>
+                <div class="container">
+                    <img class="imageMedal" src="~/Images/Nations/Thumbnails/silver_medal.jpg" />
+                    <img class="imageNation" src="~/Images/Nations/Thumbnails/@evt.secondImageName"/>
+                </div>
+                <div class="container">
+                    <img class="imageMedal" src="~/Images/Nations/Thumbnails/bronze_medal.jpg" />
+                    <img class="imageNation" img src="~/Images/Nations/Thumbnails/@evt.thirdImageName" />
+                </div>
+            </div>
+    </div>
+}
+</div>
+
